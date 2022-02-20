@@ -5,6 +5,21 @@
 /* Цвет фона вторичный - #2F303A */
 /* Цвет фона секции - #F5F4FA */
 
-.page {
-  color: #ffffff;
+body {
+  background-color: #fff;
+}
+/* logo */
+.logo {
+  color: #2196f3;
+}
+
+/* site-nav */
+.site-nav a {
+  color: #757575;
+}
+
+/* contacts */
+
+.site-contacts a {
+  color: #757575;
 }
