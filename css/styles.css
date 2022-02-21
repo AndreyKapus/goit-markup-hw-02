@@ -1,3 +1,11 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --feature-title-color: #212121;
+}
+
 /* Заголовки - #212121
 /* Цвет героя - #FFFFFF
 /* Акцент - #2196F3
@@ -6,6 +14,7 @@
 /* Цвет фона секции - #F5F4FA */
 
 body {
+  color: var(--primary-text-color);
   background-color: #fff;
 }
 /* logo */
@@ -18,8 +27,47 @@ body {
   color: #757575;
 }
 
+.site-nav .link:hover,
+.sine-nav .link:focus {
+  color: #2196f3;
+}
+
 /* contacts */
 
 .site-contacts a {
-  color: #757575;
+  color: var(--primary-text-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--hero-title-color);
+}
+
+/* преимущества */
+
+.section .section-title {
+  color: var(--title-text-color);
+}
+.section {
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* наша команда */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.feature-title {
+  color: var(--title-text-color);
 }
