@@ -32,20 +32,45 @@ body {
   color: #2196f3;
 }
 
+.site-nav .link.curent {
+  color: #2196f3;
+}
+
 /* contacts */
 
 .site-contacts a {
   color: var(--primary-text-color);
 }
 
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.site-contacts .tel:hover,
+.site-contacts .tel:focus {
+  color: var(--accent-color);
+}
 /* Hero */
 
 .hero {
   background-color: #2f303a;
 }
 
+/* Hero butom */
+.button {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
+}
+
 .hero-title {
   color: var(--hero-title-color);
+}
+
+/* Заголовки h3 */
+
+.feature-list .title {
+  color: var(--feature-title-color);
 }
 
 /* преимущества */
@@ -58,16 +83,28 @@ body {
   background-color: #e5e5e5;
 }
 
-.section-title {
-  color: var(--title-text-color);
-}
-
 /* наша команда */
 
 .team {
   background-color: #f5f4fa;
 }
 
-.feature-title {
+/* Футер */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer .adress {
+  color: var(--hero-title-color);
+}
+
+.footer .mail,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+.portfolio-title {
   color: var(--title-text-color);
 }
