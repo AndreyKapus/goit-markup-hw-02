@@ -3,7 +3,6 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --hero-title-color: #ffffff;
-  --feature-title-color: #212121;
 }
 
 /* Заголовки - #212121
@@ -23,8 +22,8 @@ body {
 }
 
 /* site-nav */
-.site-nav a {
-  color: #757575;
+.site-nav .link {
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -38,7 +37,11 @@ body {
 
 /* contacts */
 
-.site-contacts a {
+.site-contacts .link {
+  color: var(--primary-text-color);
+}
+
+.site-contacts .tel {
   color: var(--primary-text-color);
 }
 
@@ -51,39 +54,49 @@ body {
 .site-contacts .tel:focus {
   color: var(--accent-color);
 }
+
 /* Hero */
 
 .hero {
   background-color: #2f303a;
 }
 
-/* Hero butom */
-.button {
-  color: var(--hero-title-color);
-  background-color: var(--accent-color);
-}
+/* Hero buton */
 
 .hero-title {
   color: var(--hero-title-color);
 }
 
-/* Заголовки h3 */
-
-.feature-list .title {
-  color: var(--feature-title-color);
+.hero .button {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
 }
 
 /* преимущества */
 
-.section .section-title {
+.benefits .benefits-title {
   color: var(--title-text-color);
 }
-.section {
-  color: var(--primary-text-color);
-  background-color: #e5e5e5;
+
+.benefits .list {
+  color: var(--title-text-color);
+}
+
+/* чем мы занимаемся */
+
+.feature .feature-title {
+  color: var(--title-text-color);
 }
 
 /* наша команда */
+
+.team .team-title {
+  color: var(--title-text-color);
+}
+
+.team .list {
+  color: var(--title-text-color);
+}
 
 .team {
   background-color: #f5f4fa;
@@ -98,6 +111,16 @@ body {
   color: var(--hero-title-color);
 }
 
+.footer .mail:hover,
+.footer .mail:focus {
+  color: var(--accent-color);
+}
+
+.footer .tel:hover,
+.footer .tel:focus {
+  color: var(--accent-color);
+}
+
 .footer .mail,
 .tel {
   color: rgba(255, 255, 255, 0.6);
@@ -105,6 +128,21 @@ body {
 
 /* Portfolio */
 
-.portfolio-title {
+.projects .projects-title {
   color: var(--title-text-color);
+}
+
+.projects-subtitle {
+  color: var(--primary-text-color);
+}
+
+.portfolio .button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.portfolio .button:focus,
+.portfolio .button:hover {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
 }
