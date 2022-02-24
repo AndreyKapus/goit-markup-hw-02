@@ -15,15 +15,27 @@
 body {
   color: var(--primary-text-color);
   background-color: #fff;
+
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* logo */
 .logo {
   color: #2196f3;
+  font-family: raleway;
+
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -39,10 +51,18 @@ body {
 
 .site-contacts .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 .site-contacts .tel {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 .site-contacts .link:hover,
@@ -59,12 +79,25 @@ body {
 
 .hero {
   background-color: #2f303a;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Hero buton */
 
 .hero-title {
   color: var(--hero-title-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero .button {
