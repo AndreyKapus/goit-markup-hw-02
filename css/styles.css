@@ -24,6 +24,7 @@ body {
   color: #2196f3;
   font-family: raleway;
 
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -51,6 +52,7 @@ body {
 
 .site-contacts .link {
   color: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -59,6 +61,7 @@ body {
 
 .site-contacts .tel {
   color: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -91,10 +94,10 @@ body {
 
 .hero-title {
   color: var(--hero-title-color);
-  font-weight: bold;
+
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
+  line-height: 1.9;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -109,16 +112,29 @@ body {
 
 .benefits .benefits-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .benefits .list {
   color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* чем мы занимаемся */
 
-.feature .feature-title {
+.feature .feature-title,
+.team .team-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* наша команда */
@@ -129,6 +145,16 @@ body {
 
 .team .list {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .team {
@@ -140,8 +166,16 @@ body {
 .footer {
   background-color: #2f303a;
 }
+
+.footer .logo {
+  font-weight: 700;
+}
+
 .footer .adress {
   color: var(--hero-title-color);
+
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .footer .mail:hover,
@@ -157,6 +191,9 @@ body {
 .footer .mail,
 .tel {
   color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 /* Portfolio */
