@@ -27,9 +27,15 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 /* site-nav */
+
+.site-nav {
+  list-style: none;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -37,6 +43,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -50,6 +57,10 @@ body {
 
 /* contacts */
 
+.site-contacts {
+  list-style: none;
+}
+
 .site-contacts .link {
   color: var(--primary-text-color);
 
@@ -57,6 +68,7 @@ body {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-contacts .tel {
@@ -66,6 +78,7 @@ body {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-contacts .link:hover,
@@ -82,12 +95,6 @@ body {
 
 .hero {
   background-color: #2f303a;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
 }
 
 /* Hero buton */
@@ -95,10 +102,9 @@ body {
 .hero-title {
   color: var(--hero-title-color);
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -110,6 +116,10 @@ body {
 
 /* преимущества */
 
+.list {
+  list-style: none;
+}
+
 .benefits .benefits-title {
   color: var(--title-text-color);
 
@@ -118,7 +128,7 @@ body {
   line-height: 1.14;
 }
 
-.benefits .list {
+.benefits .subtitle {
   color: var(--title-text-color);
 
   font-size: 14px;
@@ -151,7 +161,7 @@ body {
   line-height: 1.18;
 }
 
-.team .subtitle {
+.team .contant {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -169,6 +179,7 @@ body {
 
 .footer .logo {
   font-weight: 700;
+  text-decoration: none;
 }
 
 .footer .adress {
@@ -176,6 +187,7 @@ body {
 
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .footer .mail:hover,
@@ -198,14 +210,6 @@ body {
 
 /* Portfolio */
 
-.projects .projects-title {
-  color: var(--title-text-color);
-}
-
-.projects-subtitle {
-  color: var(--primary-text-color);
-}
-
 .portfolio .button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -215,4 +219,18 @@ body {
 .portfolio .button:hover {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
+}
+
+.projects-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-subtitle {
+  font-size: 16px;
+  line-height: 1.87;
 }
