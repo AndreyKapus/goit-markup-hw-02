@@ -3,25 +3,20 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --hero-title-color: #ffffff;
+  --accent-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
 }
-
-/* Заголовки - #212121
-/* Цвет героя - #FFFFFF
-/* Акцент - #2196F3
-/* вторичный текст - #757575
-/* Цвет фона вторичный - #2F303A */
-/* Цвет фона секции - #F5F4FA */
 
 body {
   color: var(--primary-text-color);
-  background-color: #fff;
+  background-color: var(--hero-title-color);
 
   font-family: roboto, sans-serif;
-  letter-spacing: 0.03em;
+  font-size: 16px;
 }
 /* logo */
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: raleway;
 
   font-weight: 700;
@@ -36,7 +31,7 @@ body {
   list-style: none;
 }
 
-.site-nav .link {
+.site-nav-link {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -46,13 +41,10 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.sine-nav .link:focus {
-  color: #2196f3;
-}
-
-.site-nav .link.curent {
-  color: #2196f3;
+.site-nav-link:hover,
+.site-nav-link:focus,
+.site-nav-link.curent {
+  color: var(--accent-color);
 }
 
 /* contacts */
@@ -61,16 +53,7 @@ body {
   list-style: none;
 }
 
-.site-contacts .link {
-  color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
+.site-contacts .link,
 .site-contacts .tel {
   color: var(--primary-text-color);
 
@@ -82,10 +65,7 @@ body {
 }
 
 .site-contacts .link:hover,
-.site-contacts .link:focus {
-  color: var(--accent-color);
-}
-
+.site-contacts .link:focus,
 .site-contacts .tel:hover,
 .site-contacts .tel:focus {
   color: var(--accent-color);
@@ -94,7 +74,7 @@ body {
 /* Hero */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--accent-background-color);
 }
 
 /* Hero buton */
@@ -109,7 +89,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero .button {
+.hero-button {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
 }
@@ -164,13 +144,13 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 
 /* Футер */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--accent-background-color);
 }
 
 .footer .logo {
@@ -212,16 +192,16 @@ body {
 
 .portfolio .button {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 
-.portfolio .button:focus,
-.portfolio .button:hover {
+.portfolio .button-item:focus,
+.portfolio .button-item:hover {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
 }
 
-.projects-title {
+.card-title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -230,7 +210,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.project-subtitle {
+.card-text {
   font-size: 16px;
   line-height: 1.87;
 }
