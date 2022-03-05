@@ -16,13 +16,17 @@ body {
 }
 /* logo */
 .logo {
-  color: var(--accent-color);
+  color: var(--title-text-color);
   font-family: raleway;
 
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+
+.logo-item {
+  color: var(--accent-color);
 }
 
 /* site-nav */
@@ -87,11 +91,17 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+
+  text-transform: uppercase;
 }
 
 .hero-button {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* преимущества */
@@ -109,6 +119,8 @@ body {
 
   font-size: 14px;
   line-height: 1.7;
+
+  text-transform: uppercase;
 }
 
 /* чем мы занимаемся */
@@ -156,10 +168,18 @@ body {
 .footer .logo {
   font-weight: 700;
   text-decoration: none;
+  color: var(--hero-title-color);
 }
 
-.footer .adress {
+.logo-item {
+  color: var(--accent-color);
+}
+
+.adress {
   color: var(--hero-title-color);
+
+  font-style: normal;
+  font-weight: 400;
 
   font-size: 14px;
   line-height: 1.7;
@@ -180,6 +200,9 @@ body {
 .tel {
   color: rgba(255, 255, 255, 0.6);
 
+  font-style: normal;
+  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.17;
 }
@@ -190,9 +213,14 @@ body {
   display: none;
 }
 
-.portfolio .button {
+.portfolio .button-item {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .portfolio .button-item:focus,
